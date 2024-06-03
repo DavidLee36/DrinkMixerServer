@@ -7,7 +7,7 @@ const recipes = drinkData.recipes;
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.get('/api/drinks', (req,res) => {
+app.get('/api/drinks', (req, res) => {
     res.json(drinks);
 });
 
